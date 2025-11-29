@@ -1,0 +1,50 @@
+Editores de texto servem para criar e modificar arquivos de texto, os mais conhecidos são o nano e o vim, mas existem outros.
+
+EDITORES DE TEXTO 
+
+- Vi
+- Vim
+- Nano
+- Joe
+- Pico
+- Mcedit
+- Ed
+- Emacs
+
+EDITOR PADRÃO DO DEBIAN É O NANO
+
+Comandos no nano :
+/etc > configurações da máquina
+nano -v > abrir arquivo somente para leitura
+Ctrl + X > Salvar/sair
+Ctrl + K > Recorta a linha
+Ctrl + O > Salva arquivo
+Ctrl + Y > Vai para a primeira linha do arquivo.
+Ctrl + V >  Vai para a última linha do arquivo.
+Ctrl + Shift + C > Copiar
+Ctrl + U > Colar texto que foi cortado
+Ctrl + R > Substitui um texto por outro
+Ctrl + W > Procura por um texto específico
+
+Comandos Vim :
+
+O Vim aparece com o modo de proteção, precisa ir para o modo de Inserção.
+
+i > Modo de inserção (Consegue digitar)
+o > Modo de inserção linha de baixo
+Esc > Modo proteção
+:q > Sair do arquivo
+:w > Salvar arquivo
+:wq > Salvar e sair
+h > Mover para esquerda
+j > Mover para baixo
+l > Mover para direita
+Shift + G > Última linha
+gg > Primeira Linha
+x > Excluir caractere
+dd > Excluir a linha inteira
+yy > Copia a linha inteira
+p  > Cola
+Shift + O > Modo inserção linha de cima
+:q! > Forçar saida do arquivo
+:wq! > Sair de modo forçado
